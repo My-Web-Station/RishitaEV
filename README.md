@@ -1,2 +1,1 @@
-# RishitaEV
-The electric vehicle paradise
+# EVCharge

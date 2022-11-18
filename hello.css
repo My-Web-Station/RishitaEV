@@ -304,6 +304,38 @@ section{
     color:var(--black);
 }
 
+#ren
+{
+    background-color: green;
+    border-radius: 10px;
+}
+#ren:hover
+{
+    background-color: skyblue;
+    color:darkblue;
+    border-style: double;
+}
+#rex
+{
+    background-color: red;
+    border-radius: 15px;
+}
+#rex:hover
+{
+    background-color: rgb(229, 157, 14);
+    color:black;
+    border-style: double;
+}
+.box
+{
+    border-radius: 10px;
+}
+.box:hover
+{
+    border-style: double;
+    border-width: 15px;
+}
+
 .products .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -332,10 +364,15 @@ section{
 
 .products .box-container .box .image{
     padding: 2.5rem 0;
+    border-width: 20px;
+    border-color: aqua;
+    
 }
 
 .products .box-container .box .image img{
     height: 25rem;
+    border-radius: 10px;
+    
 }
 
 .products .box-container .box .content h3{
@@ -640,3 +677,4 @@ section{
     }
 
 }
+
